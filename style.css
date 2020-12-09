@@ -1,0 +1,152 @@
+/* :root{
+  background-color: gray;
+}
+
+.container{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  max-width: 80rem;
+  margin:0 auto;
+  padding:2rem;
+  
+}
+.flex-column{
+  display:flex;
+  flex-direction:column;
+}
+.flex-center{
+  justify-content: center;
+  align-items:center;
+}
+.justify-center{
+  justify-content: center;
+}
+.text-center{
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+.btn{
+  font-size:2.4rem;
+  padding: 2rem;
+  width:30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color:rgb(141, 80, 80);
+  background-color: rgb(235, 158, 158);
+  border-radius: 4px;
+
+}
+.btn:hover{
+  cursor: pointer;
+  box-shadow: gray;
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+#second{
+  color:rgb(141, 80, 80);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%
+  font-family 'Nova Square', cursive;
+}
+
+h1{
+  font-size:90px;
+  color: rgb(235, 158, 158);
+  margin-top: 5rem;
+  font-family: 'Nova Square', cursive;
+}
+p{
+  font-size:20px;
+  margin-bottom:4rem;
+  color:  rgb(48, 44, 44);
+  font-family: 'Nova Square', cursive;
+}
+
+
+
+.btn[disabled]:hover{
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+
+} */ 
+
+
+
+
+
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container{
+  box-sizing: 800px border-box 30px 40px;
+  color: white;
+}
+
+.card{
+  background-color:rgba(105, 102, 100, 0.932) 0px 2px 8px 0px;
+  color: hsl(207, 12%, 51%);; 
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(105, 102, 100, 0.932) 0px 2px 8px 0px;
+  color: hsl(207, 12%, 51%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 50px 40px;
+  font-family: 'Nova Square', cursive;
+  color: rgba(19, 8, 3, 0.932) 0px 2px 8px 0px; 
+
+}
+#second{
+  color: rgb(70, 70, 71)
+}
+#choices:hover {
+
+}
+#counter {
+  color:rgb(30, 7, 66)
+ 
+}
+#question{
+  color: white;
+}
+.card-header{
+  background-color:  rgba(184, 143, 211, 0.842);
+  color: white
+
+}
+.card-body{
+  background-color: rgba(220, 203, 231, 0.842);
+
+}
+.card-footer{
+  background-color:  rgba(184, 143, 211, 0.842);
+}
+
+.btn-primary{
+  
+  background-color:rgba(116, 101, 126, 0.842);
+  
+}
+.btn-primary:hover{
+  
+  background-color:rgba(43, 20, 58, 0.842);
+  box-shadow: rgba(105, 102, 100, 0.932) 0px 2px 8px 0px;
+
+  
+} 
